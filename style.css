@@ -1,0 +1,68 @@
+
+:root{
+    --card-background: hsl(0, 0%, 100%); /* white */
+    --background-color: hsl(212, 45%, 89%); /* light-gray */
+    --background-shadow: hsl(220, 15%, 55%); /* grayish-blue */
+    --accent: hsl(218, 44%, 22%); /* dark-blue */
+    --font-size: 15px;
+}
+
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+main {
+    margin-inline: auto;
+    margin-block: clamp(3rem, calc((100vh - 29rem) / 2), 100em);
+    
+    min-width: 16rem;
+    max-width: 19rem;
+
+    font-size: var(--font-size);
+    font-family: 'Outfit';
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--accent);
+}
+
+img {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.card {
+    background-color: var(--card-background);
+    color: var(--background-shadow);
+    padding: 1rem;
+    margin-inline: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 10px 1rem hsla(220, 15%, 55%, 0.1);
+}
+
+.block {
+    margin-inline: .5rem;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
