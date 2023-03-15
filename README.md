@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [github.io](https://aliaaz.github.io/qrcode/)
+- [Live Demo](https://aliaaz.github.io/qrcode/)
 
 ## My process
 
@@ -47,4 +47,4 @@ To work on how to make the CSS more robust and efficient.
 
 ## Author
 
-- n/a - Aliaaa
+- Github - [@aliaaz](https://github.com/aliaaz)
